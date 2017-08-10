@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="8.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3594,6 +3594,11 @@ Source: AVX .. aphvc.pdf</description>
 <text x="154.94" y="111.76" size="1.778" layer="91">white - </text>
 <text x="154.94" y="58.42" size="1.778" layer="91">Green - </text>
 <text x="38.1" y="68.58" size="1.778" layer="91">white-</text>
+<text x="165.1" y="111.76" size="1.778" layer="91">white out_R</text>
+<text x="175.26" y="58.42" size="1.778" layer="91">Green out_B</text>
+<text x="162.56" y="58.42" size="1.778" layer="91">Green out_R</text>
+<text x="162.56" y="167.64" size="1.778" layer="91">Blue out_R</text>
+<text x="177.8" y="167.64" size="1.778" layer="91">Blue out_B</text>
 </plain>
 <instances>
 <instance part="IC3" gate="P" x="182.88" y="139.7"/>
