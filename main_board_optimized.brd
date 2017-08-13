@@ -141,9 +141,9 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="119" y2="0" width="0" layer="20"/>
-<wire x1="119" y1="0" x2="119" y2="65" width="0" layer="20"/>
-<wire x1="119" y1="65" x2="0" y2="65" width="0" layer="20"/>
-<wire x1="0" y1="65" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="119" y1="0" x2="119" y2="43" width="0" layer="20"/>
+<wire x1="119" y1="43" x2="0" y2="43" width="0" layer="20"/>
+<wire x1="0" y1="43" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="eagle-ltspice" urn="urn:adsk.eagle:library:217">
@@ -680,28 +680,27 @@ design rules under a new name.</description>
 <contactref element="PAD12" pad="1"/>
 <contactref element="PAD11" pad="1"/>
 <contactref element="PAD10" pad="1"/>
-<polygon width="0.1524" layer="1">
-<vertex x="-5" y="82"/>
-<vertex x="-5" y="-4"/>
-<vertex x="105" y="-4"/>
-<vertex x="105" y="80"/>
-<vertex x="103" y="82"/>
-</polygon>
-<wire x1="104.47" y1="28.5625" x2="112.52" y2="16.648" width="0" layer="19" extent="1-1"/>
-<wire x1="91.725" y1="28.58" x2="104.47" y2="28.5625" width="0" layer="19" extent="1-1"/>
+<wire x1="91.725" y1="28.58" x2="95.87" y2="40.77" width="0" layer="19" extent="1-1"/>
+<wire x1="104.47" y1="28.5625" x2="91.725" y2="28.58" width="0" layer="19" extent="1-1"/>
+<wire x1="112.52" y1="16.648" x2="104.47" y2="28.5625" width="0" layer="19" extent="1-1"/>
 <wire x1="81.12" y1="17.648" x2="91.725" y2="28.58" width="0" layer="19" extent="1-1"/>
+<wire x1="86.39" y1="14.08" x2="81.12" y2="17.648" width="0" layer="19" extent="1-1"/>
+<wire x1="75.22" y1="7" x2="81.12" y2="17.648" width="0" layer="19" extent="1-1"/>
 <wire x1="73.07" y1="27.5625" x2="81.12" y2="17.648" width="0" layer="19" extent="1-1"/>
 <wire x1="61.055" y1="29.31" x2="73.07" y2="27.5625" width="0" layer="19" extent="1-1"/>
-<wire x1="29.77" y1="37.96" x2="61.055" y2="29.31" width="0" layer="19" extent="1-1"/>
+<wire x1="66.92" y1="40.77" x2="61.055" y2="29.31" width="0" layer="19" extent="1-1"/>
 <wire x1="60.87" y1="7" x2="75.22" y2="7" width="0" layer="19" extent="1-1"/>
 <wire x1="56.63" y1="15.08" x2="60.87" y2="7" width="0" layer="19" extent="1-1"/>
 <wire x1="49.12" y1="16.488" x2="56.63" y2="15.08" width="0" layer="19" extent="1-1"/>
-<wire x1="15.44" y1="17.76" x2="20.87" y2="14.08" width="0" layer="19" extent="1-1"/>
-<wire x1="16.21" y1="27.91" x2="15.44" y2="17.76" width="0" layer="19" extent="1-1"/>
-<wire x1="9.43" y1="30.5625" x2="16.21" y2="27.91" width="0" layer="19" extent="1-1"/>
-<wire x1="26.275" y1="28.31" x2="16.21" y2="27.91" width="0" layer="19" extent="1-1"/>
 <wire x1="40.4" y1="27.5625" x2="49.12" y2="16.488" width="0" layer="19" extent="1-1"/>
-<wire x1="66.92" y1="40.77" x2="29.77" y2="37.96" width="0" layer="19" extent="1-1"/>
+<wire x1="26.275" y1="28.31" x2="40.4" y2="27.5625" width="0" layer="19" extent="1-1"/>
+<wire x1="16.21" y1="27.91" x2="26.275" y2="28.31" width="0" layer="19" extent="1-1"/>
+<wire x1="9.43" y1="30.5625" x2="16.21" y2="27.91" width="0" layer="19" extent="1-1"/>
+<wire x1="15.44" y1="17.76" x2="16.21" y2="27.91" width="0" layer="19" extent="1-1"/>
+<wire x1="20.87" y1="14.08" x2="15.44" y2="17.76" width="0" layer="19" extent="1-1"/>
+<wire x1="29.77" y1="37.96" x2="26.275" y2="28.31" width="0" layer="19" extent="1-1"/>
+<wire x1="27.52" y1="6" x2="20.87" y2="14.08" width="0" layer="19" extent="1-1"/>
+<wire x1="9.35" y1="7.56" x2="15.44" y2="17.76" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="G1" pad="+"/>
@@ -1464,17 +1463,6 @@ design rules under a new name.</description>
 <wire x1="58.6456" y1="29.2194" x2="58.515" y2="29.31" width="0.3048" layer="1"/>
 <wire x1="50.8934" y1="47.3228" x2="59.18" y2="40.94" width="0.3048" layer="16"/>
 <via x="55.6456" y="2.9558" extent="1-16" drill="0.508"/>
-</signal>
-<signal name="N$33">
-<polygon width="0.1524" layer="16">
-<vertex x="-1" y="-6"/>
-<vertex x="125" y="-6"/>
-<vertex x="125" y="-4"/>
-<vertex x="125" y="70"/>
-<vertex x="-3" y="70"/>
-<vertex x="-3" y="67"/>
-<vertex x="-3" y="-6"/>
-</polygon>
 </signal>
 </signals>
 </board>
