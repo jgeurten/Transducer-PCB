@@ -5581,7 +5581,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="VDD8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="C8" library="adafruit" deviceset="C-US" device="C2012" value="10uF"/>
-<part name="C2" library="adafruit" deviceset="C-US" device="C2012" value="10uF"/>
+<part name="C1" library="adafruit" deviceset="C-US" device="C2012" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -5685,7 +5685,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <instance part="SUPPLY21" gate="GND" x="246.38" y="106.68" rot="R90"/>
 <instance part="VDD8" gate="G$1" x="226.06" y="96.52" rot="R180"/>
 <instance part="C8" gate="G$1" x="231.14" y="86.36" rot="MR270"/>
-<instance part="C2" gate="G$1" x="43.18" y="142.24" rot="R270"/>
+<instance part="C1" gate="G$1" x="43.18" y="142.24" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -5705,7 +5705,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <wire x1="38.1" y1="142.24" x2="27.94" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="142.24" x2="27.94" y2="152.4" width="0.1524" layer="91"/>
 <junction x="27.94" y="152.4"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="TM1" gate="G$1" pin="S"/>
@@ -5829,7 +5829,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <wire x1="45.72" y1="142.24" x2="53.34" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="142.24" x2="53.34" y2="152.4" width="0.1524" layer="91"/>
 <junction x="53.34" y="152.4"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="A1" pin="VI"/>
