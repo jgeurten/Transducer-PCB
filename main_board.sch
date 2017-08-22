@@ -5641,7 +5641,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.3048" drill="0.508">
+<class number="0" name="default" width="0.3048" drill="0.4318">
 <clearance class="0" value="0.254"/>
 </class>
 </classes>
@@ -6026,11 +6026,11 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="U3" gate="A" pin="2OUT"/>
 <wire x1="142.24" y1="144.78" x2="142.24" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="149.86" x2="147.32" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="X6" gate="-1" pin="S"/>
+<wire x1="154.94" y1="160.02" x2="147.32" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="160.02" x2="147.32" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="149.86" x2="142.24" y2="149.86" width="0.1524" layer="91"/>
 <junction x="142.24" y="149.86"/>
-<wire x1="147.32" y1="149.86" x2="147.32" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="154.94" x2="154.94" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="154.94" x2="154.94" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="U3_2_IN-" class="0">

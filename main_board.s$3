@@ -5716,7 +5716,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="VDD8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="C2" library="adafruit" deviceset="C-US" device="C2012" value="10uF"/>
-<part name="C1" library="adafruit" deviceset="C-US" device="C2012" value="10uF"/>
+<part name="C1" library="adafruit" deviceset="C-US" device="C2012" value="1uF"/>
 <part name="X4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="C-GRID-02" device="-70543"/>
 <part name="X5" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="C-GRID-02" device="-70543"/>
 <part name="X6" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="C-GRID-02" device="-70543"/>
