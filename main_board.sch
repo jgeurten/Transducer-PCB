@@ -4926,81 +4926,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="battery" urn="urn:adsk.eagle:library:109">
-<description>&lt;b&gt;Lithium Batteries and NC Accus&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="AB9V" library_version="1">
-<description>&lt;B&gt;9-V BATTERY CLIP&lt;/B&gt;</description>
-<wire x1="-2.54" y1="-3.175" x2="-2.54" y2="-1.905" width="0.254" layer="21"/>
-<wire x1="-2.54" y1="1.905" x2="-2.54" y2="3.175" width="0.254" layer="21"/>
-<wire x1="-1.905" y1="2.54" x2="-3.175" y2="2.54" width="0.254" layer="21"/>
-<wire x1="-2.54" y1="4.318" x2="-1.778" y2="5.08" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="5.08" x2="1.778" y2="5.08" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="4.318" x2="1.778" y2="5.08" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="4.318" x2="2.54" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="-5.08" x2="2.54" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="-5.08" x2="-1.778" y2="-5.08" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-4.318" x2="-1.778" y2="-5.08" width="0.1524" layer="21"/>
-<circle x="0" y="2.54" radius="1.27" width="0.1524" layer="51"/>
-<circle x="0" y="-2.54" radius="1.27" width="0.1524" layer="51"/>
-<pad name="-" x="0" y="-2.54" drill="1.1176" diameter="3.1496" shape="octagon"/>
-<pad name="+" x="0" y="2.54" drill="1.1176" diameter="3.1496" shape="octagon"/>
-<text x="-1.905" y="-1.143" size="1.27" layer="21" ratio="16" rot="R90">9V</text>
-<text x="-3.81" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="4.445" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="9V0-BL" library_version="1">
-<wire x1="-6.985" y1="0.635" x2="-6.985" y2="0" width="0.4064" layer="94"/>
-<wire x1="-8.89" y1="0" x2="-6.985" y2="0" width="0.1524" layer="94"/>
-<wire x1="-6.985" y1="0" x2="-6.985" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="-5.715" y1="2.54" x2="-5.715" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="-4.445" y1="0.635" x2="-4.445" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="6.985" y1="2.54" x2="6.985" y2="0" width="0.4064" layer="94"/>
-<wire x1="6.985" y1="0" x2="8.255" y2="0" width="0.1524" layer="94"/>
-<wire x1="6.985" y1="0" x2="6.985" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="-3.175" y1="2.54" x2="-3.175" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="-1.905" y1="0.635" x2="-1.905" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="2.54" x2="-0.635" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="0.635" y1="0.635" x2="0.635" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="1.905" y1="2.54" x2="1.905" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0.635" x2="3.175" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="4.445" y1="2.54" x2="4.445" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="5.715" y1="0.635" x2="5.715" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="9.525" y1="0.635" x2="9.525" y2="-0.635" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="-9.525" y1="0.635" x2="-9.525" y2="-0.635" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="8.255" y1="0" x2="8.89" y2="0" width="0.6096" layer="94"/>
-<wire x1="-10.16" y1="0" x2="-10.795" y2="0" width="0.6096" layer="94"/>
-<text x="-5.715" y="3.175" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.715" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<text x="7.62" y="0.635" size="1.524" layer="94">+</text>
-<text x="-8.255" y="0.635" size="1.524" layer="94">-</text>
-<pin name="+" x="12.7" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="-" x="-12.7" y="0" visible="pad" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="AB9V" prefix="G" library_version="1">
-<description>&lt;B&gt;9-V BATTERY CLIP&lt;/B&gt;</description>
-<gates>
-<gate name="G$1" symbol="9V0-BL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="AB9V">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="linear" urn="urn:adsk.eagle:library:262">
 <description>&lt;b&gt;Linear Devices&lt;/b&gt;&lt;p&gt;
 Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&gt;
@@ -5635,6 +5560,81 @@ wire to board 2.54 mm (0.100") pitch header</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="battery">
+<description>&lt;b&gt;Lithium Batteries and NC Accus&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="AB9V">
+<description>&lt;B&gt;9-V BATTERY CLIP&lt;/B&gt;</description>
+<wire x1="-2.54" y1="-3.175" x2="-2.54" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="3.175" width="0.254" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-3.175" y2="2.54" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="4.318" x2="-1.778" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="5.08" x2="1.778" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="4.318" x2="1.778" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="4.318" x2="2.54" y2="-11.938" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="-12.7" x2="2.54" y2="-11.938" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="-12.7" x2="-1.778" y2="-12.7" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-11.938" x2="-1.778" y2="-12.7" width="0.1524" layer="21"/>
+<circle x="0" y="2.54" radius="1.27" width="0.1524" layer="51"/>
+<circle x="0" y="-10.16" radius="1.27" width="0.1524" layer="51"/>
+<pad name="-" x="0" y="-10.16" drill="2.286" diameter="3.81" shape="octagon"/>
+<pad name="+" x="0" y="2.54" drill="2.286" diameter="3.81" shape="octagon"/>
+<text x="-1.905" y="-1.143" size="1.27" layer="21" ratio="16" rot="R90">9V</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="9V0-BL">
+<wire x1="-6.985" y1="0.635" x2="-6.985" y2="0" width="0.4064" layer="94"/>
+<wire x1="-8.89" y1="0" x2="-6.985" y2="0" width="0.1524" layer="94"/>
+<wire x1="-6.985" y1="0" x2="-6.985" y2="-0.635" width="0.4064" layer="94"/>
+<wire x1="-5.715" y1="2.54" x2="-5.715" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-4.445" y1="0.635" x2="-4.445" y2="-0.635" width="0.4064" layer="94"/>
+<wire x1="6.985" y1="2.54" x2="6.985" y2="0" width="0.4064" layer="94"/>
+<wire x1="6.985" y1="0" x2="8.255" y2="0" width="0.1524" layer="94"/>
+<wire x1="6.985" y1="0" x2="6.985" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-3.175" y1="2.54" x2="-3.175" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-1.905" y1="0.635" x2="-1.905" y2="-0.635" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="2.54" x2="-0.635" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="0.635" y1="0.635" x2="0.635" y2="-0.635" width="0.4064" layer="94"/>
+<wire x1="1.905" y1="2.54" x2="1.905" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0.635" x2="3.175" y2="-0.635" width="0.4064" layer="94"/>
+<wire x1="4.445" y1="2.54" x2="4.445" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="5.715" y1="0.635" x2="5.715" y2="-0.635" width="0.4064" layer="94"/>
+<wire x1="9.525" y1="0.635" x2="9.525" y2="-0.635" width="0.254" layer="94" curve="-180" cap="flat"/>
+<wire x1="-9.525" y1="0.635" x2="-9.525" y2="-0.635" width="0.254" layer="94" curve="-180" cap="flat"/>
+<wire x1="8.255" y1="0" x2="8.89" y2="0" width="0.6096" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-10.795" y2="0" width="0.6096" layer="94"/>
+<text x="-5.715" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.715" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="7.62" y="0.635" size="1.524" layer="94">+</text>
+<text x="-8.255" y="0.635" size="1.524" layer="94">-</text>
+<pin name="+" x="12.7" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="-" x="-12.7" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AB9V" prefix="G">
+<description>&lt;B&gt;9-V BATTERY CLIP&lt;/B&gt;</description>
+<gates>
+<gate name="G$1" symbol="9V0-BL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AB9V">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5647,15 +5647,14 @@ wire to board 2.54 mm (0.100") pitch header</description>
 </classes>
 <parts>
 <part name="IC3" library="linear-technology" library_urn="urn:adsk.eagle:library:261" deviceset="LT1168" device="S8" technology="AC"/>
-<part name="R4" library="adafruit" deviceset="R-US_" device="R1206"/>
-<part name="R5" library="adafruit" deviceset="R-US_" device="R1206"/>
-<part name="R6" library="adafruit" deviceset="R-US_" device="R1206"/>
+<part name="R4" library="adafruit" deviceset="R-US_" device="R1206" value="10kO"/>
+<part name="R5" library="adafruit" deviceset="R-US_" device="R1206" value="1KO"/>
+<part name="R6" library="adafruit" deviceset="R-US_" device="R1206" value="4kO"/>
 <part name="U3" library="Texas Instruments_By_element14_Batch_1" deviceset="TLC272IP" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TM1" library="adafruit" deviceset="TRIMPOT" device="3386"/>
 <part name="TM6" library="adafruit" deviceset="TRIMPOT" device="3386"/>
 <part name="TM7" library="adafruit" deviceset="TRIMPOT" device="3386"/>
-<part name="G1" library="battery" library_urn="urn:adsk.eagle:library:109" deviceset="AB9V" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -5667,12 +5666,12 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <part name="VDD3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="VDD4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="R7" library="adafruit" deviceset="R-US_" device="R1206" value="30kO"/>
-<part name="R8" library="adafruit" deviceset="R-US_" device="R1206"/>
-<part name="R9" library="adafruit" deviceset="R-US_" device="R1206"/>
+<part name="R8" library="adafruit" deviceset="R-US_" device="R1206" value="2kO"/>
+<part name="R9" library="adafruit" deviceset="R-US_" device="R1206" value="110 ohm"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="IC1" library="linear-technology" library_urn="urn:adsk.eagle:library:261" deviceset="LT1168" device="S8" technology="AC"/>
-<part name="R1" library="adafruit" deviceset="R-US_" device="R1206"/>
+<part name="R1" library="adafruit" deviceset="R-US_" device="R1206" value="10kO"/>
 <part name="U1" library="Texas Instruments_By_element14_Batch_1" deviceset="TLC272IP" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TM2" library="adafruit" deviceset="TRIMPOT" device="3386"/>
@@ -5681,13 +5680,13 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="VDD1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
-<part name="R2" library="adafruit" deviceset="R-US_" device="R1206"/>
-<part name="R3" library="adafruit" deviceset="R-US_" device="R1206"/>
-<part name="R10" library="adafruit" deviceset="R-US_" device="R1206"/>
+<part name="R2" library="adafruit" deviceset="R-US_" device="R1206" value="30kO"/>
+<part name="R3" library="adafruit" deviceset="R-US_" device="R1206" value="2kO"/>
+<part name="R10" library="adafruit" deviceset="R-US_" device="R1206" value="110ohm"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="IC2" library="linear-technology" library_urn="urn:adsk.eagle:library:261" deviceset="LT1168" device="S8" technology="AC"/>
-<part name="R11" library="adafruit" deviceset="R-US_" device="R1206"/>
+<part name="R11" library="adafruit" deviceset="R-US_" device="R1206" value="10kO\"/>
 <part name="U2" library="Texas Instruments_By_element14_Batch_1" deviceset="TLC272IP" device=""/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TM4" library="adafruit" deviceset="TRIMPOT" device="3386"/>
@@ -5696,9 +5695,9 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="VDD2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
-<part name="R12" library="adafruit" deviceset="R-US_" device="R1206"/>
-<part name="R13" library="adafruit" deviceset="R-US_" device="R1206" value="30kO"/>
-<part name="R14" library="adafruit" deviceset="R-US_" device="R1206"/>
+<part name="R12" library="adafruit" deviceset="R-US_" device="R1206" value="30kO"/>
+<part name="R13" library="adafruit" deviceset="R-US_" device="R1206" value="2kO"/>
+<part name="R14" library="adafruit" deviceset="R-US_" device="R1206" value="110 ohm"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -5723,6 +5722,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="G1" library="battery" deviceset="AB9V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5744,7 +5744,6 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <instance part="TM1" gate="G$1" x="48.26" y="101.6" rot="R270"/>
 <instance part="TM6" gate="G$1" x="83.82" y="147.32" rot="MR270"/>
 <instance part="TM7" gate="G$1" x="83.82" y="124.46" rot="R270"/>
-<instance part="G1" gate="G$1" x="40.64" y="152.4"/>
 <instance part="P+4" gate="VCC" x="58.42" y="157.48"/>
 <instance part="P+8" gate="VCC" x="27.94" y="132.08"/>
 <instance part="SUPPLY4" gate="GND" x="22.86" y="144.78"/>
@@ -5824,6 +5823,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <instance part="SUPPLY15" gate="GND" x="157.48" y="157.48"/>
 <instance part="SUPPLY16" gate="GND" x="152.4" y="104.14"/>
 <instance part="SUPPLY22" gate="GND" x="152.4" y="48.26"/>
+<instance part="G1" gate="G$1" x="40.64" y="152.4"/>
 </instances>
 <busses>
 </busses>
@@ -5836,14 +5836,14 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <wire x1="104.14" y1="134.62" x2="104.14" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="G1" gate="G$1" pin="-"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 <wire x1="27.94" y1="152.4" x2="22.86" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="152.4" x2="22.86" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="142.24" x2="27.94" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="142.24" x2="27.94" y2="152.4" width="0.1524" layer="91"/>
-<junction x="27.94" y="152.4"/>
 <pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="G1" gate="G$1" pin="-"/>
+<junction x="27.94" y="152.4"/>
 </segment>
 <segment>
 <pinref part="TM1" gate="G$1" pin="S"/>
@@ -5963,14 +5963,14 @@ wire to board 2.54 mm (0.100") pitch header</description>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="G1" gate="G$1" pin="+"/>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
 <wire x1="53.34" y1="152.4" x2="58.42" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="152.4" x2="58.42" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="142.24" x2="53.34" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="142.24" x2="53.34" y2="152.4" width="0.1524" layer="91"/>
-<junction x="53.34" y="152.4"/>
 <pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="G1" gate="G$1" pin="+"/>
+<junction x="53.34" y="152.4"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="A1" pin="VI"/>
